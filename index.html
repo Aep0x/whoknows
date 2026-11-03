@@ -1,53 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
+
 <head>
+<meta charset="UTF-8">
 <title>WHO KNOWS?</title>
 
 <style>
-body {
-    background: #0d0d0d;
-    color: white;
-    font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
+
+body{
+    background:#090909;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
 }
 
-h1 {
-    text-align: center;
-    color: red;
+header{
+    text-align:center;
+    padding:40px;
+    background:linear-gradient(90deg,#700000,#111);
+    box-shadow:0 0 20px red;
 }
 
-.post {
-    background: #1a1a1a;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border-left: 4px solid red;
+h1{
+    margin:0;
+    font-size:50px;
+    letter-spacing:5px;
 }
 
-.date {
-    color: gray;
-    font-size: 14px;
+.tagline{
+    color:#ccc;
+    margin-top:10px;
 }
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+.search{
+    background:#1a1a1a;
+    border:none;
+    color:white;
+    width:100%;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:25px;
+}
+
+.post{
+    background:#151515;
+    border-left:5px solid red;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:25px;
+    box-shadow:0 0 10px rgba(255,0,0,0.2);
+}
+
+.post h2{
+    color:#ff4b4b;
+}
+
+.meta{
+    color:gray;
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.icons{
+    margin-top:15px;
+    color:#aaa;
+}
+
+footer{
+    text-align:center;
+    color:gray;
+    padding:30px;
+}
+
 </style>
 </head>
 
 <body>
 
-<h1>WHO KNOWS?</h1>
+<header>
+<h1>🕵️ WHO KNOWS?</h1>
+<p class="tagline">The secrets are watching...</p>
+</header>
+
+<div class="container">
+
+<input class="search" placeholder="🔎 Zoek een geheim..." readonly>
 
 <div class="post">
-<h2>SPOTTED 👀</h2>
-<p>Iemand werd na school gezien met een mysterieuze persoon...</p>
-<p class="date">3 november 2026</p>
+<div class="meta">📅 3 november 2026 • 👁️ 214 views</div>
+<h2>👀 SPOTTED</h2>
+<p>
+Twee leerlingen werden na school samen gezien in een leeg lokaal...
+Toeval? Of is er meer aan de hand?
+</p>
+
+<div class="icons">
+❤️ 32 &nbsp;&nbsp; 💬 8
+</div>
 </div>
 
 <div class="post">
-<h2>NEW SECRET 🤫</h2>
-<p>Er gaan geruchten over iets dat gebeurde tijdens het schoolfeest.</p>
-<p class="date">2 november 2026</p>
+<div class="meta">📅 2 november 2026 • 👁️ 178 views</div>
+<h2>🤫 NEW SECRET</h2>
+<p>
+Iemand zou de antwoorden van een toets al op voorhand hebben gezien.
+Maar wie?
+</p>
+
+<div class="icons">
+❤️ 19 &nbsp;&nbsp; 💬 5
 </div>
+</div>
+
+<div class="post">
+<div class="meta">📅 1 november 2026 • 👁️ 301 views</div>
+<h2>🔥 RUMOUR ALERT</h2>
+<p>
+Er gaan geruchten rond over een onverwachte relatie binnen de school...
+</p>
+
+<div class="icons">
+❤️ 54 &nbsp;&nbsp; 💬 12
+</div>
+</div>
+
+</div>
+
+<footer>
+⚠️ Alle informatie op deze site is gebaseerd op geruchten.
+</footer>
 
 </body>
 </html>
